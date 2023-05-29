@@ -52,7 +52,7 @@
     v-model="lezione">
     <option value="0">Scegli la lezione da cui vuoi generare le domande</option>
     <option
-      v-for="n in 8"
+      v-for="n in 12"
       :value="n">
       {{ n }}
     </option>

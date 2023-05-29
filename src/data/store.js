@@ -3,6 +3,11 @@ import { reactive } from "vue";
 export const store = reactive({
   domande: [
     {
+      domanda: "In che anno è stato creato il III livello del corso?",
+      risposta: false,
+      lezione: 1
+    },
+    {
       domanda:
         "Il tastevin si utilizza per le veloci degustazioni davanti al tavolo dei commensali",
       risposta: false,
@@ -163,6 +168,12 @@ export const store = reactive({
       domanda:
         "Se il vino rosso evoluto è stato portato al tavolo nel paniere, le operazioni di apertura della bottiglia devono avvenire all’interno di esse senza estrarla?",
       risposta: true,
+      lezione: 1
+    },
+    {
+      domanda:
+        "In quale anno l’Associazione Italiana Sommelier ha stampato in proprio la rivista?",
+      risposta: false,
       lezione: 1
     },
     {
@@ -337,8 +348,8 @@ export const store = reactive({
     },
     {
       domanda:
-        "Il “rittochino” è un sistema di potatura utilizzato per i vitigni a bacca bianca?",
-      risposta: true,
+        "Il “rittochino” è un sistema di potatura utilizzato per i vitigni a bacca bianca? Ve",
+      risposta: false,
       lezione: 2
     },
     {
@@ -1964,6 +1975,654 @@ export const store = reactive({
         "Nella designazione del vino spumante Conegliano Valdobbiadene Prosecco è consentito riportare l’annata di raccolta, purché il prodotto sia ottenuto con almeno l’85% di vino dell’annata di riferimento?",
       risposta: false,
       lezione: 8
+    },
+    {
+      domanda: "La pupitre continue 60 bottiglie per ogni lato?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Terreni argillosi, climi freschi ed elevate escursioni termiche tra giorno e notte, sono tre le principali condizioni per ottenere uve adatte alla spumantizzazione?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Il “remuage” è l’operazione che libera lo spumante dai residui imprigionati in un tassello di ghiaccio creato nel collo della bottiglia, prima di dosaggio finale e mappatura?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "La “cuvee” è una miscela di vini diversi per annata e/o vitigno e/o per vigna in proporzione variabile, atta a costituire la base di un vino spumante?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "La rifermentazinoe in autoclave non può essere utilizzata nella produzione di spumanti secchi a partire dai vitigni solitamente impiegati per gli spumanti metodo classico?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda: "Liquer de dosage e liquor d’expedition sono la stessa cosa?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Uno spumante brut ha una quantità di zuccheri inferiore a 5g/l?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "La presenza di una spuma sottile e persistente nello spumante è dovuta anche alla maturazione sui lieviti?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "I due vitigni più importanti per la produzione dello Champagne sono pinot nero e meunier?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Lo chardonnay è il vitigno più impiegato nella produzione degli spumanti Metodo Classico?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Per gli spumanti Metodo Classico millesimati l’affinamento minimo sui lieviti è di 12 mesi?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Attualmente in Francia il Cremant è riservato ai vini spumanti metodo classico prodotti in Alsazia, Borgogna, Liora, Bordeaux, Jura, Limoux, Die?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Il “pied de cuve” è fondamentale per innescare la rifermentazione in bottiglia?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "L’affinamento sui lieviti per gli spumanti non millesimati è di almeno 24 mesi?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda: "L’asti spumanti è ottenuto dall’uva moscato bianco?",
+      risposta: true,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Un vino frizzante è uncino con alcol totale non superiore a 9% vol. (alcol svolto non inferiore a 7% vol.) e sovrimpressione non superiore a 1 bar?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Il vino da destinare alla spumantizzazione con metodo classico per produrre le versione riserva, deve essere conservato in barrique per ottenere una migliore complessità olfattiva?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda: "Il metodo “solera” è un passaggio del processo spumantistico?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "I vini spumanti ottenuto con metodo Martinotti, sono in genere più strutturati di quelli ottenuti con metodo Charmat?",
+      risposta: false,
+      lezione: 8
+    },
+    {
+      domanda:
+        "Tutte le uve, se il clima lo consente, si prestano bene alla sovramaturazione con grandi risultati?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Le uve di provenienza del Madeira: baul, bercial, verdelho, e malmsey sono indicate in etichetta solo se utilizzare per almeno l’85% del totale?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Una forte insolazione e ventilazione durante la fase di appassimento delle uve in pianta esaltano la concentrazione dei componenti balsamici e floreali?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Lo Sherry Fino che riporta la menzione “Soleras 1930” significa che quel vino è stato ottenuto dalla vendemmia del 1930?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda: "Tutte le tipologie di Porto e Madeira sono dolci?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "La Botrytis Cinerea, in adeguate condizioni climatiche, produce anche glicerina?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Il Tokaji ungherese è un vino muffato da vitigni furmint, muscat a petit grains ed harslevelu?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Una forte insolazione durante la fase di appassimento delle voce in pianta pongono a rischio la conservazione delle caratteristiche organolettiche dell’acino?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda: "Il Vermouth è un vino liquoroso aromatizzato?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda: "Le uve per il Vin Santo subiscono un appassimento artificiale?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Il Vermouth è un vino a cui è stato aggiunto alcol, ma non aromi?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda: "Il Vermouth è un vino a cui è stato aggiunto alcol?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda: "La sigla LBV indica una tipologia di Porto?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Nella produzione del Madera il processo di estufas prevede di scaldare l’ambiante a 40-50° per minimo 90 giorni?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda: "Il Porto Tawny matura in botti colme da 225 litri?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Una delle condizioni essenziale per un buon appassimento delle uve, fuori dalla pianta, è una naturale alta temperatura?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Nella produzione del Porto l’aggiunta di alcol avviene all’incirca a metà fermentazione alcolica?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Un vino liquoroso ha una concentrazione zuccherina non inferiore a 50g/l ad eccezione dei lini liquorosi secchi o dry per i quali non deve superare i 22g/l?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Qualora il Madera riporti in etichetta il nome del vitigno, ad esempio verdelho, significa che la sua presenza è minimo dell’85%?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Le uve utilizzate per la produzione dello Sherry sono palomino de Jerez, moscadel e Pedro ximenes?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Il sistema di invecchiamento del vino chiamato “soleras” consente l’identificazione dell’annata di raccolta delle uve?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Un vino liquoroso deve avere alcol svolto compreso da 15-22% e non inferiore a 18% per i vini dolci?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Marsala e porto si ottengono con lo stesso sistema di fortificazione?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Lo stile del porto è determinato dalla sosta più o meno prolungata in bottiglia?",
+      risposta: false,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Nel vino Jerez i lieviti filmogeni rivestono un’importanza particolare?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "Il Marsala fa parte dei vini “conciati”, ma il Marsala Vergine non lo è?",
+      risposta: true,
+      lezione: 9
+    },
+    {
+      domanda:
+        "La tolleranza nell’indicazione della gradazione alcolica da riportare in etichetta è di 0,5 o 0,8 in più o in meno di quello dichiarata, con riferimento a specifiche tipologie di vino?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Nei vini con residuo zuccherino è consentito dichiarare l’alcol potenziale con un tolleranza di 0,5 in più o in meno?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda: "Il Liguria è autorizzato l’impiego della menzione Vin de pays?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "La menzione “filtrato dolce” non è più consentita dall’attuale legislazione vitivinicola?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Il termine Classico indica vino ottenuto con sole uve autoctone?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Per il vino è obbligatorio indicare in etichetta il lotto di confezionamento?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "É obbligatorio riportare in etichetta l’indicazione dell’imbottigliatore?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Il Valle D’Aosta è autorizzato l’impiego della menzione Vin de pays?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda: "Il vino IGP può usare la menzione VIno Passito?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "L’indicazione del volume nominale della bottiglia può essere riportato in etichetta in modo orizzontale e verticale?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Per i vini liquorosi l’uso della menzione “dolce” è consentita a condizione che il tenore di zuccheri residui sia superiore a 50 grammi/litro?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "L’etichetta deve riportare obbligatoriamente la dicitura “contiene anidride solforosa” se il tenore è maggiore di 10mg/litro?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "I vini IGP hanno una loro regolamentazione, un loro disciplinare?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Nel caso di vini dolci è obbligatorio indicare se amabile o dolce qualora il vino sia DOC, DOCG, DOP?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "La presenza di una sovrimpressione di anidride carbonica di 1,1 atmosfere equivale a vino frizzate?",
+      risposta: true,
+      lezione: 10
+    },
+    {
+      domanda: "Nel DOC Valle d’aosta è ammessa la dizione “Vin du Domaine”?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "L’indicazione del numero del lotto in etichetta è obbligatorio solo per i vini DOP?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda: "L’indicazione “vino novello” è obbligatoria nei vini DOC?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "I disciplinari di produzione dei vini DOC regolamentano il quantitativo minimo e massimo di kg di uva che deve essere prodotta in vigna?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Il disciplinare di produzione regolamenta la resa minima per ettaro?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Nell’etichetta degli spumanti extra brut è obbligatorio indicare il tenore di zucchero espresso in grammi litro?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Tra le menzioni tradizionali che, per legge, possono essere indicate in etichetta si trova “vino da uve botritizzate?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Con l’ultima normativa, il prodotto vitivinicolo “vino” può omettere l’indicazione della gradazione alcolica se risulta inferiore a 13%vol.?",
+      risposta: false,
+      lezione: 10
+    },
+    {
+      domanda:
+        "Il Vatted malt è un whisky che is ottiene miscelando Whisky di malto provenienti da distillerie diverse?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il “cuore” di un distillato deciso dal mastro distillatore, è costituito eliminando le “teste” e le code”?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Il Drambuie è un liquore a base di whisky e miele?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il Rum industriale si ottiene dalla distillazione di melassa di zucchero di canna, il Rum “agricole” da canna di zucchero fresca?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Per il Whisky è obbligatoria la sosta in Legno, per la grappa no?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "La temperatura di servizio di una grappa giovane è di 0-4°?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La tequila è un distillato di agave weber dell’area di Guadalajara, è più rustico del Mezcal?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Grand Champagne e Petit Champagne sono due dei 6 cur del Cognac?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La distillazione continua, tramite colonne alimentate dal fermentato senza interruzione è un processo più costoso rispetto alla distillazione continua?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il bicchiere più adatto per la degustazione di ogni distillato è un tumbler da 100-120 ml?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La distillazione continua è un processo ininterrotto che si svolge all’interno di un alambicco?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il bicchiere più adatto per degustazione di ogni distillato è quello a tulipano da 100-120 ml?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Nell’esame gustativo di un distillato, da svolgere a piccoli sorsi, si percepiscono bene solo le sensazioni di dolce e amaro?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "La Tequila è un distillato di canna da zucchero?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "I Whisky scozzesi sono distillati due volte, mentre i Whiskey irlandesi sono distillati 3 volte o con distillazione continua?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La distillazione è un processo fisico che permette di separare le componenti volatili di un fermentato in base al loro diverso punto di ebollizione?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Nell’esame gustativo di un distillato, da svolgere a piccoli sorsi, si percepisce bene la sensazione di acidità, anche se attenuata dall’effetto tattile dell’alcol etilico?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda: "Il Gin è un distillato di succo di bacche di ginepro?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La classificazione dei Cognac si basa sull’invecchiamento dell’acquavite più giovane nel blend?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La Grappa è un distillato di vinacce italiane prodotte in Italia e nella svizzera italiana che per legge non deve necessariamente invecchiare?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "L’Armagnac è un distillato di vino prodotto in tutto il territorio francese?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La riduzione del grado alcolico di un distillato è realizzata con aggiunta dosata di acqua demineralizzata o ionizzata?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Il Pisco è un distillato di agave azul?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il Gin è un distillato di cereali prodotto un pò in tutto il mondo, il Calvados è un distillato di sidro prodotto in Normandia?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Il Bourbon whiskey è un distillato di segale?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La Grappa Stravecchia deve sostare in legno di rovere per almeno 24 mesi?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Le zone storiche di produzione di “malt” scozzesi sono due: Highlands ed isola di Islay?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La riduzione del grado alcolico di un distillato è realizzata con aggiunta dosata di acqua demineralizzata o ionizzata?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "I terpeni e le pirazine sono i responsabili dei profumi primari anche delle acquaviti?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il Whisky scozzese si ottiene da orzo saltato, quello americano (Bourbon) dal mais?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "I protagonisti dei profumi nei distillati giovani sono gli esteri?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Il Pisco è un distillato di agave azul?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La distillazione è un processo fisico-chimico che permette di superare le componenti volatili di un fermentato in base al loro diverso punto di ebollizione?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La sensazione di salinità, chiara e tipica di alcuni Whisky, è molto rara negli altri distillati?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La distillazione discontinua è un processo intermittente dove ogni cotta (carico dell’alambicco) è trattata separatamente per massimo 2 volte?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Gli alambicchi a vapore sono i più diffusi?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "La temperatura di servizio dei distillati è quella ambiente o quella derivante dal riscaldamento del bicchiere in mano?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Lo scopo della distillazione è quello di concentrare l’alcol etilico mediante trasformazione in vapore e successiva ricondensazione?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Bons Bois è una zona di produzione dell’Armagnac?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "I Whisky di cereali sono prodotti in tutto il mondo con distillazione continua in una colonna di rettificazione detta “Coffey still”?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda: "Il Calvados è un distillato di vino prodotto in Francia?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "Il “cuore” di un distillato deciso dal mastro distillatore, è costituito dalle “teste” alle quali si aggiungono le “code”?",
+      risposta: false,
+      lezione: 12
+    },
+    {
+      domanda:
+        "L’invecchiamento in botte di Whisky, Cognac, Armagnac, Calvados deve per legge essere effettuato in botte previa parziale riduzione del grado alcolico?",
+      risposta: true,
+      lezione: 12
+    },
+    {
+      domanda:
+        "I Single Malto sono Whisky di puro malo (elaborati con il 100% di orzo saltato) provenienti da una sola distilleria?",
+      risposta: true,
+      lezione: 12
     }
   ]
 });
